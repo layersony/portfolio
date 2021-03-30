@@ -199,7 +199,8 @@ header>.main_container>.leftside{
 }
 
 .skill_description{
-  background-color: tomato;
+  font-size: 30px;
+  padding: 40px;
 }
 /*****************
 **Contact section**
