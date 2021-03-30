@@ -119,3 +119,39 @@ header>.main_container>.leftside{
 .about_container>.about_content>.txt{
   padding: 20px;
 }
+
+/*****************
+**Skills section**
+*****************/
+
+#skill{
+  height: 900px;
+  background-color: red;
+}
+#skill>.skill_container{
+  padding-top: 40px;
+  height: 750px;
+  margin: 70px;
+}
+.skill_container h2{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+}
+.skill_container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.skill_container>.skill_content{
+  background-color: rgba(0, 0, 255, 0.349);
+  border-radius: 10px;
+  width: 400px;
+  font-size: 30px;
+  min-height: 400px;
+}
+.skill_container>.skill_content>.txt{
+  padding: 20px;
+}
+
