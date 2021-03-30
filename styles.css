@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+
 *{
   font-family: cursive, Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   color: #fff;
+  cursor: alias;
 }
 
 body{
@@ -125,7 +128,10 @@ header>.main_container>.leftside{
 
 #skill{
   height: 900px;
-  background-color: red;
+  /* background-color: red; */
+}
+.skillleft{
+  padding: 15px;
 }
 #skill>.skill_container{
   padding-top: 40px;
@@ -144,7 +150,7 @@ header>.main_container>.leftside{
   clear: both;
 }
 .skill_container>.skill_content{
-  background-color: rgba(0, 0, 255, 0.349);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   width: 400px;
   font-size: 30px;
@@ -154,8 +160,49 @@ header>.main_container>.leftside{
   padding: 20px;
 }
 
+.skill_meter{
+  padding: 20px;
+}
+
+.skill_meter>.bars{
+  margin-bottom: 15px;
+}
+.skill_meter>.bars>.info{
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skill_meter>.bars>.info span{
+  font-weight: 500;
+  font-size: 18px;
+}
+.skill_meter>.bars>.line{
+  height: 5px;
+  width: 100%;
+  background: white;
+  position: relative;
+}
+.skill_meter>.bars>.line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: blue;
+}
+.skill_meter>.bars>.html::before{
+  width: 90%;
+}
+.skill_meter>.bars>.css::before{
+  width: 50%;
+}
+
+.skill_description{
+  background-color: tomato;
+}
 /*****************
-**Skills section**
+**Contact section**
 *****************/
 
 #contact{
