@@ -1,5 +1,5 @@
 *{
-  font-family: cursive;
+  font-family: cursive, Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   color: #fff;
 }
@@ -22,10 +22,14 @@ header>.topnav{
   font-size: 30px;
 }
 
+.logo> span{
+  color: blue;
+}
+
 header>.main_container{
   /* background-color: red; */
-  padding-top: 100px;
-  height: 580px;
+  padding-top: 80px;
+  height: 650px;
 }
 
 header>.main_container>.leftside{
@@ -36,17 +40,36 @@ header>.main_container>.leftside{
   align-items: center;
 }
 .main_container>.leftside>.name{
-  /* background-color: mediumseagreen; */
   padding: 25px;
   width: 400px;
+  font-size: 25px;
+  word-spacing: 2px;
+}
+
+.main_container>.leftside>.name span{
+  color: blue;
+  font-weight: 600;
 }
 
 .main_container>.leftside>.main_content{
   /* background-color: gray; */
   width: 400px;
-  padding: 25px;
-  font-size: 33px;
+  padding: 10px;
+  font-size: 50px;
 }
+.main_container>.leftside>.main_content h2{
+  margin: 8px;
+}
+.main_container>.leftside>.main_content h2 a{
+  text-decoration: none;
+}
+.main_container>.leftside>.main_content h2 a:hover{
+  font-size: 65px;
+  padding: 10px;
+  color: blue;
+  transition-delay: 0ms;
+}
+
 header>.main_container>.img_container{
   /* background-color: darkorchid; */
   text-align: center;
