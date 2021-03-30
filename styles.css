@@ -62,12 +62,13 @@ header>.main_container>.leftside{
   font-size: 65px;
   padding: 10px;
   color: blue;
-  transition-delay: 0ms;
+  transition-delay: 10ms;
 }
 
 /* image */
 .img_container{
   text-align: center;
+  background-color: green;
 }
 
 .img_container img{
@@ -89,17 +90,19 @@ header>.main_container>.leftside{
 /****************
 **about section**
 ****************/
-
+#about{
+  height: 900px;
+}
 #about>.about_container{
-  /* background-color: red; */
   padding-top: 40px;
-  height: 650px;
+  height: 750px;
   margin: 70px;
 }
 .about_container h2{
   font-size: 40px;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
+  padding: 20px;
 }
 .about_container::after {
   content: "";
@@ -107,11 +110,11 @@ header>.main_container>.leftside{
   clear: both;
 }
 .about_container>.about_content{
-  background-color: rgba(0, 0, 255, 0.267);
-  border-radius: 5px;
+  background-color: rgba(0, 0, 255, 0.349);
+  border-radius: 10px;
   width: 400px;
   font-size: 30px;
-  min-height: 300px;
+  min-height: 400px;
 }
 .about_container>.about_content>.txt{
   padding: 20px;
