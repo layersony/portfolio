@@ -9,13 +9,11 @@ body{
 }
 
 header{
-  /* background-color: blue; */
   padding: 10px;
   height: 880px;
 }
 
 header>.topnav{
-  /* background-color: green; */
   padding-left: 100px;
   padding-top: 1px;
   width: 250px;
@@ -27,13 +25,11 @@ header>.topnav{
 }
 
 header>.main_container{
-  /* background-color: red; */
   padding-top: 80px;
   height: 650px;
 }
 
 header>.main_container>.leftside{
-  /* background-color: chocolate; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +48,6 @@ header>.main_container>.leftside{
 }
 
 .main_container>.leftside>.main_content{
-  /* background-color: gray; */
   width: 400px;
   padding: 10px;
   font-size: 50px;
@@ -70,17 +65,17 @@ header>.main_container>.leftside{
   transition-delay: 0ms;
 }
 
-header>.main_container>.img_container{
-  /* background-color: darkorchid; */
+/* image */
+.img_container{
   text-align: center;
 }
 
-header>.main_container>.img_container img{
-  /* background-color: rgb(51, 155, 97); */
-  height: 400px;
-  width: 400px;
+.img_container img{
+  height: 550px;
+  width: 550px;
 }
 
+/* floating effect */
 #h_con{
   float: left;
   width: 50%;
@@ -89,4 +84,35 @@ header>.main_container>.img_container img{
   content: "";
   display: table;
   clear: both;
+}
+
+/****************
+**about section**
+****************/
+
+#about>.about_container{
+  /* background-color: red; */
+  padding-top: 40px;
+  height: 650px;
+  margin: 70px;
+}
+.about_container h2{
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+.about_container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about_container>.about_content{
+  background-color: rgba(0, 0, 255, 0.267);
+  border-radius: 5px;
+  width: 400px;
+  font-size: 30px;
+  min-height: 300px;
+}
+.about_container>.about_content>.txt{
+  padding: 20px;
 }
