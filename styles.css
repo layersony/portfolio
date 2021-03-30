@@ -193,28 +193,30 @@ header>.main_container>.leftside{
   background: #0000ff;
 }
 .skill_meter>.bars>.html::before{
-  width: 90%;
+  width: 85%;
 }
 .skill_meter>.bars>.css::before{
-  width: 50%;
+  width: 60%;
 }
 
 .skill_description{
-  font-size: 30px;
-  padding: 40px;
+  font-size: 28px;
+  padding: 30px;
+}
+.skill_description h3{
+  text-align: center;
+  text-decoration: underline;
+}
+.skill_description span{
+  font-size: 20px;
 }
 .skill_description a{
   text-decoration: none;
+  color: #0000ff;
 }
 .skill_description a:hover{
-  font-size: 40px;
-  color: #0000ff;
+  font-size: 35px;
   text-decoration: none;
-}
-.skill_description a:visited{
-  font-size: 30px;
-  color: #0000ff;
-  text-decoration: line-through;
 }
 /*****************
 **Contact section**
