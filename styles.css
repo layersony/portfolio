@@ -24,7 +24,7 @@ header>.topnav{
 }
 
 .logo> span{
-  color: blue;
+  color: #0000ff;
 }
 
 header>.main_container{
@@ -46,8 +46,9 @@ header>.main_container>.leftside{
 }
 
 .main_container>.leftside>.name span{
-  color: blue;
+  color: #0000ff;
   font-weight: 600;
+  font-size: 30px;
 }
 
 .main_container>.leftside>.main_content{
@@ -64,7 +65,7 @@ header>.main_container>.leftside{
 .main_container>.leftside>.main_content h2 a:hover{
   font-size: 65px;
   padding: 10px;
-  color: blue;
+  color: #0000ff;
   transition-delay: 10ms;
 }
 
@@ -112,7 +113,7 @@ header>.main_container>.leftside{
   clear: both;
 }
 .about_container>.about_content{
-  background-color: rgba(0, 0, 255, 0.349);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   width: 400px;
   font-size: 30px;
@@ -189,7 +190,7 @@ header>.main_container>.leftside{
   height: 100%;
   left: 0;
   top: 0;
-  background: blue;
+  background: #0000ff;
 }
 .skill_meter>.bars>.html::before{
   width: 90%;
@@ -201,6 +202,19 @@ header>.main_container>.leftside{
 .skill_description{
   font-size: 30px;
   padding: 40px;
+}
+.skill_description a{
+  text-decoration: none;
+}
+.skill_description a:hover{
+  font-size: 40px;
+  color: #0000ff;
+  text-decoration: none;
+}
+.skill_description a:visited{
+  font-size: 30px;
+  color: #0000ff;
+  text-decoration: line-through;
 }
 /*****************
 **Contact section**
