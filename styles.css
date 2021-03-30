@@ -68,7 +68,6 @@ header>.main_container>.leftside{
 /* image */
 .img_container{
   text-align: center;
-  background-color: green;
 }
 
 .img_container img{
@@ -161,7 +160,6 @@ header>.main_container>.leftside{
 
 #contact{
   height: 900px;
-  background-color: rgb(202, 194, 194);
   text-align: center;
 }
 #contact>.contact_container{
@@ -181,7 +179,6 @@ header>.main_container>.leftside{
   clear: both;
 }
 .contact_container>.contact_content{
-  background-color: rgba(0, 0, 255, 0.349);
   border-radius: 10px;
   width: 400px;
   font-size: 30px;
@@ -200,7 +197,7 @@ header>.main_container>.leftside{
   text-decoration: underline;
 }
 .contact_container>.contact_content>.contact_info>.textinfo p{
-  font-size: 20px;
+  font-size: 25px;
   padding: 20px;
   text-align: center;
 }
