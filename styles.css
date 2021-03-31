@@ -1,16 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 
 *{
-  font-family: cursive, Georgia, 'Times New Roman', Times, serif;
+  font-family: cursive, sans-serif;
   text-align: left;
   color: #fff;
-  cursor: alias;
+  cursor: pointer;
 }
 
 body{
   background: linear-gradient(110deg, rgb(23, 115, 212) 30%, rgb(5, 5, 90) 50%, rgb(27, 27, 29) 50%);
   background-attachment: fixed;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 header{
@@ -214,10 +215,10 @@ header>.main_container>.leftside{
 }
 .skill_description a{
   text-decoration: none;
-  color: #0000ff;
 }
 .skill_description a:hover{
   font-size: 35px;
+  color: black;
   text-decoration: none;
 }
 /*****************
@@ -274,4 +275,34 @@ header>.main_container>.leftside{
 
 .contact_container>.contact_content>.txt{
   padding: 20px;
+}
+
+/****************
+******Footer*****
+****************/
+
+footer{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px
+}
+footer>.social{
+  background-color: transparent;
+}
+
+footer>.social>.fa {
+  padding: 5px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+footer>.social>.fa:hover{
+  opacity: 0.7;
+}
+
+footer>.footer_info p{
+  font-size: 15px
 }
