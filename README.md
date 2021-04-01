@@ -1,6 +1,6 @@
 # Maingi Portfolio
 
-#### Created on 2th April 2021
+#### Created on 2nd April 2021
 #### By Samuel Maingi Mutunga
 
 ## Description 
