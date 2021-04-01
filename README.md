@@ -4,7 +4,7 @@
 #### By Samuel Maingi Mutunga
 
 ## Description 
-This a Webiste that Show case my skills and abilities i have, A little Description about the Handsome Man behind all this beautiful Code. You can Reach easily via the Contact Section on the Website am also 24/7 available if you ever need Me will be there `Meaning 5:30 am To 9:00 pm`
+This a Website that show case my skills and abilities I have. A little Description about the Handsome Man behind all this beautiful Code. You can reach me easily via the Contact Section on the Website am also 24/7 available. If you ever need me will be there `5:30 am To 9:00 pm`
 
 The landing Page
 ![Preview](./images/preview.png)
@@ -29,7 +29,9 @@ To access this project on your local files, you can clone it using these steps
 
 ## Technologies Used
 HTML
+
 CSS
+
 Git
 
 ---

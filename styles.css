@@ -278,10 +278,11 @@ header>.main_container>.leftside{
   font-size: 30px;
   text-decoration: underline;
 }
-.contact_container>.contact_content>.contact_info>.textinfo p{
+.contact_container>.contact_content>.contact_info>.textinfo ul li{
   font-size: 25px;
-  padding: 20px;
+  padding: 1px;
   text-align: center;
+  list-style: none;
 }
 .contact_container>.contact_content>.contact_info>.textinfo i{
   color: #000;
@@ -311,17 +312,26 @@ footer{
 footer>.social{
   background-color: transparent;
 }
+footer>.social ol{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 
-footer>.social>.fa {
+
+footer>.social ol li>.fa {
   padding: 5px;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   color: white;
 }
-footer>.social>.fa:hover{
-  opacity: 0.7;
+footer>.social ol li>.fa:hover{
+  opacity: 0.6;
+  font-size: 35px;
 }
 
 footer>.footer_info p{
-  font-size: 15px
+  font-size: 15px;
 }
