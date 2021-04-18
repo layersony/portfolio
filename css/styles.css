@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Ubuntu:wght@300&display=swap');
 
 *{
-  font-family: cursive, sans-serif;
+  font-family: cursive ,Ubuntu, sans-serif;
   text-align: left;
   color: #fff;
   cursor: pointer;
@@ -16,36 +16,31 @@ body{
 
 header{
   padding: 10px;
-  height: 880px;
+  min-height: 100vh;
+  
 }
 
-header>.topnav{
-  padding-left: 100px;
-  padding-top: 1px;
-  width: 250px;
-  font-size: 30px;
+.logo{
+  color: #fff;
+  font-size: 55px;
+  font-family: 'Gochi Hand', cursive;;
 }
-
 .logo> span{
   color: #000;
+  font-family: 'Gochi Hand', cursive;;
 }
 
 header>.main_container{
-  padding-top: 80px;
-  height: 650px;
+  padding-top: 8%;
+  min-height: 70vh;
 }
 
-header>.main_container>.leftside{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .main_container>.leftside>.name{
   padding: 25px;
-  width: 400px;
+  min-width: 300px;
   font-size: 25px;
   word-spacing: 2px;
+  /* background-color: yellow; */
 }
 
 .main_container>.leftside>.name span{
@@ -55,14 +50,19 @@ header>.main_container>.leftside{
 }
 
 .main_container>.leftside>.main_content{
-  width: 400px;
+  min-width: 300px;
   padding: 10px;
-  font-size: 50px;
+  font-size: 55px;
+  /* background-color: pink; */
 }
 .main_container>.leftside>.main_content h2{
   margin: 8px;
+  font-size: 50px;
+  padding: 10px;
 }
 .main_container>.leftside>.main_content h2 a{
+  text-align: left;
+  color: inherit;
   text-decoration: none;
 }
 .main_container>.leftside>.main_content h2 a:hover{
@@ -77,21 +77,11 @@ header>.main_container>.leftside{
   text-align: center;
 }
 
-.img_container img{
-  height: 550px;
-  width: 550px;
-}
+/* .img_container img{
+  max-height: 550px;
+  max-width: 550px;
+} */
 
-/* floating effect */
-#h_con{
-  float: left;
-  width: 50%;
-}
-.main_container::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /****************
 **about section**
@@ -324,4 +314,17 @@ footer>.social>.fa:hover{
 
 footer>.footer_info p{
   font-size: 15px
+}
+
+@media only screen and (max-width: 768px){
+  *{
+    text-align: center;
+
+  }
+  body{
+    background: rgb(28, 28, 30);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+  }
 }
